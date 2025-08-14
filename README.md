@@ -268,10 +268,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author & Contact
 
-* **Your Name**
-* 📧 [your.email@example.com](mailto:your.email@example.com)
-* 💼 [LinkedIn](https://www.linkedin.com/in/yourusername)
-* 🎯 [Portfolio](https://yourwebsite.com)
+* **M. Zubair Tariq**
+* 📧 [M.ZubairTariq20@gmail.com](mailto:M.ZubairTariq20@gmail.com)
+* 💼 [LinkedIn](https://www.linkedin.com/in/muhammad-zubair-tariq-70209b364)
+* 🎯 [Fiverr – ZubairWebWorks](https://www.fiverr.com/ZubairWebWorks)
 
 ---
 
