@@ -208,7 +208,7 @@ Adjust animation timing in `styles.css`:
 
 ## 🌐 Live Demo
 
-🔗 **[View Website](https://yourusername.github.io/AdventureBlog)**
+🔗 **[View Website](https://zubair-471.github.io/AdventureBlog/)**
 
 ## 📊 Performance Features
 
