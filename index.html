@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern, responsive blog featuring tech, travel, and food articles with smooth animations">
+    <meta name="keywords" content="blog, tech, travel, food, responsive, modern">
+    <meta name="author" content="Adventure Blog">
+    <meta property="og:title" content="Adventure Blog - Tech, Travel & Food">
+    <meta property="og:description" content="A modern, responsive blog featuring tech, travel, and food articles">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/adventure-blog">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Adventure Blog - Tech, Travel & Food</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+</head>
+<body>
+    <!-- Scroll progress indicator -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="blog-title">
+                    <i class="fas fa-globe-americas"></i>
+                    Adventure Blog
+                </h1>
+                <p class="blog-subtitle">Exploring Tech, Travel & Culinary Delights</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="filters-section">
+                <div class="filters-wrapper">
+                    <div class="category-filters">
+                        <button data-category="all" class="filter-btn active">
+                            <i class="fas fa-th-large"></i>
+                            All Posts
+                        </button>
+                        <button data-category="tech" class="filter-btn">
+                            <i class="fas fa-microchip"></i>
+                            Tech
+                        </button>
+                        <button data-category="travel" class="filter-btn">
+                            <i class="fas fa-plane"></i>
+                            Travel
+                        </button>
+                        <button data-category="food" class="filter-btn">
+                            <i class="fas fa-utensils"></i>
+                            Food
+                        </button>
+                    </div>
+                    <div class="search-wrapper">
+                        <div class="search-input-group">
+                            <i class="fas fa-search search-icon"></i>
+                            <input type="text" id="search-input" placeholder="Search articles...">
+                            <button id="clear-search" class="clear-search">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="results-info">
+                    <span id="results-count">Showing all posts</span>
+                </div>
+            </section>
+
+            <section class="blog-posts" id="blog-posts">
+                <!-- Posts will be dynamically inserted here -->
+            </section>
+
+            <div class="load-more-container">
+                <button id="load-more" class="load-more-btn">
+                    <i class="fas fa-plus"></i>
+                    Load More Posts
+                </button>
+                <div id="loading-spinner" class="loading-spinner" style="display: none;">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    Loading...
+                </div>
+            </div>
+            
+            <!-- Scroll to top button -->
+            <button id="scroll-to-top" class="scroll-to-top-btn">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Adventure Blog. Made with <i class="fas fa-heart"></i> for sharing knowledge.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
